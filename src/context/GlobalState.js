@@ -23,7 +23,7 @@ export const GlobalProvider = ({ children }) => {
         payload: res.data.data
       });
     } catch (error) {
-      console.error(error);
+      console.error(error.response);
     }
   };
 
@@ -37,7 +37,7 @@ export const GlobalProvider = ({ children }) => {
         payload: res.data.data
       });
     } catch (error) {
-      console.error(error);
+      console.error(error.response);
     }
   };
 
@@ -52,7 +52,7 @@ export const GlobalProvider = ({ children }) => {
         payload: res.data.data
       });
     } catch (error) {
-      console.error(error);
+      console.error(error.response);
     }
   };
 
